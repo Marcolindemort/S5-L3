@@ -1,0 +1,44 @@
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+}
+
+#articolo {
+  background-color: rgb(255, 234, 206);
+  padding: 30px;
+  border-radius: 30px;
+}
+
+#articolo img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  #articolo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-block: 20px;
+    padding-inline: 20px;
+  }
+
+  div > div {
+    width: 50%;
+  }
+
+  #articolo img {
+    width: 100%;
+    margin-right: 20px;
+    margin-top: unset;
+  }
+
+  p,
+  h3 {
+    padding-left: 30px;
+  }
+
+  h3 {
+    margin-top: 30px;
+  }
+}
